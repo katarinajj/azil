@@ -1,0 +1,16 @@
+.slike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.slika-zivotinje, .karakteristike table{
+    width: 80%;
+}
+
+.footer{
+    position: fixed;
+}
+
