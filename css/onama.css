@@ -1,0 +1,28 @@
+.tekst-o-nama {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tekst-o-nama img {
+    width: 80%;
+}
+.tekst-o-nama .post {
+    width: 95%;
+}
+
+.kontakt {
+    background-color: #a37a78;
+}
+
+.kontakt div {
+    color: #f6f2f1;
+    font-weight: bold;
+}
+
+.kontakt .crno {
+    color: black;
+    font-weight: bold;
+}

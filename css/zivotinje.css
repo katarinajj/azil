@@ -14,3 +14,23 @@
     position: fixed;
 }
 
+
+.pretraga {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rezultati {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.rezultat img {
+    width: 80%;
+}
