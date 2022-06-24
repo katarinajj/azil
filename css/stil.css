@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 #logo {
     width: 70px;
     height: 70px;
@@ -8,7 +12,7 @@
     box-shadow: 5px 5px #566158;
 }
 
-#zastava_srb {
+#zastava_srb img, #zastava_eng img {
     height: 30px;
 }
 
@@ -27,6 +31,20 @@
     padding-bottom: 0.5%;
     background-color: #d1bbbd;
     position: fixed;
+}
+
+.sadrzaj {
+    margin-top: 1%;
+    padding-top: 3%;
+}
+
+/* .bredkrum {
+    position: fixed;
+} */
+
+.breadcrumb-item a {
+    color: #74876e;
+    text-decoration: none;
 }
 
 .footer {

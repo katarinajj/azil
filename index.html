@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/stil.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/skripta.js"></script>
+    <script src="./js/srp-eng.js"></script>
     <title>Ivka</title>
 </head>
 <body>
@@ -21,62 +25,65 @@
                     </a>
                     <ul class="navbar-nav meni">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Početna</a>
+                            <a href="index.html" class="nav-link rec-pocetna">Početna</a>
                         </li>
                         <li class="nav-item dropdown" role="menu">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle rec-zivotinje" href="zivotinje.html" id="dropdownMenuLink" data-bs-toggle="dropdown">
                                 Životinje
                             </a>
                             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                                 
                                 <li class="dropdown-submenu">
-                                  <a  class="dropdown-item" tabindex="-1" href="#">Psi</a>
+                                  <a  class="dropdown-item rec-psi" tabindex="-1" href="./zivotinje/psi.html">Psi</a>
                                   <ul class="dropdown-menu">
-                                    <li class="dropdown-item"><a tabindex="-1" href="./zivotinje/psi/labrador.html">Labrador</a></li>
-                                    <li class="dropdown-item"><a href="./zivotinje/psi/samojed.html">Samojed</a></li>
-                                    <li class="dropdown-item"><a href="./zivotinje/psi/pudlica.html">Pudlica</a></li>
+                                    <li class="dropdown-item"><a tabindex="-1" href="./zivotinje/psi/labrador.html" class="rec-labrador">Labrador</a></li>
+                                    <li class="dropdown-item"><a href="./zivotinje/psi/samojed.html" class="rec-samojed">Samojed</a></li>
+                                    <li class="dropdown-item"><a href="./zivotinje/psi/pudlica.html" class="rec-pudlica">Pudlica</a></li>
                                   </ul>
                                 </li>
 
                                 <li class="dropdown-submenu">
-                                    <a  class="dropdown-item" tabindex="-1" href="#">Mačke</a>
+                                    <a  class="dropdown-item rec-macke" tabindex="-1" href="./zivotinje/macke.html">Mačke</a>
                                     <ul class="dropdown-menu">
-                                      <li class="dropdown-item"><a tabindex="-1" href="./zivotinje/macke/persijska.html">Persijska</a></li>
-                                      <li class="dropdown-item"><a href="./zivotinje/macke/bengalska.html">Bengalska</a></li>
-                                      <li class="dropdown-item"><a href="./zivotinje/macke/sijamska.html">Sijamska</a></li>
+                                      <li class="dropdown-item"><a tabindex="-1" href="./zivotinje/macke/persijska.html" class="rec-perijska">Persijska</a></li>
+                                      <li class="dropdown-item"><a href="./zivotinje/macke/bengalska.html" class="rec-bengalska">Bengalska</a></li>
+                                      <li class="dropdown-item"><a href="./zivotinje/macke/sijamska.html" class="rec-sijamska">Sijamska</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="dropdown-submenu">
-                                    <a  class="dropdown-item" tabindex="-1" href="#">Ptice</a>
+                                    <a  class="dropdown-item rec-ptice" tabindex="-1" href="./zivotinje/ptice.html">Ptice</a>
                                     <ul class="dropdown-menu">
-                                      <li class="dropdown-item"><a tabindex="-1" href="./zivotinje/ptice/tigrice.html">Tigrica</a></li>
-                                      <li class="dropdown-item"><a href="./zivotinje/ptice/nimfa.html">Nimfa</a></li>
-                                      <li class="dropdown-item"><a href="./zivotinje/ptice/kanarinac.html">Kanarinac</a></li>
+                                      <li class="dropdown-item"><a tabindex="-1" href="./zivotinje/ptice/tigrice.html" class="rec-tigrica">Tigrica</a></li>
+                                      <li class="dropdown-item"><a href="./zivotinje/ptice/nimfa.html" class="rec-nimfa">Nimfa</a></li>
+                                      <li class="dropdown-item"><a href="./zivotinje/ptice/kanarinac.html" class="rec-kanarinac">Kanarinac</a></li>
                                     </ul>
                                 </li>
                               </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Izgubljeni ljubimci</a>
+                            <a href="izgubljeniLjubimci.html" class="nav-link rec-izgubljeni">Izgubljeni ljubimci</a>
                         </li>
                         <li class="nav-item">
-                            <a href="dodajOglas.html" class="nav-link">Dodaj oglas</a>
+                            <a href="dodajOglas.html" class="nav-link rec-dodaj-oglas">Dodaj oglas</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">O nama</a>
+                            <a href="onama.html" class="nav-link rec-o-nama">O nama</a>
                         </li>                          
                     </ul>    
                 </nav>
             </div>
             <div class="col-sm-2 col">
                 <nav class="navbar navbar-expand-sm moj-nalog">
-                    <a href="#" class="navbar-brand">
-                        <img src="./slike/zastava_srb.png" alt="srb" id="zastava_srb">
+                    <a href="#" class="navbar-brand collapse" id="zastava_srb">
+                        <img src="./slike/zastava_srb.png" alt="srb">
+                    </a>
+                    <a href="#" class="navbar-brand collapse" id="zastava_eng">
+                        <img src="./slike/zastava_eng.png" alt="eng" >
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Moj nalog</a>
+                            <a href="mojNalog.html" class="nav-link rec-nalog">Moj nalog</a>
                         </li>
                     </ul>
                 </nav>
@@ -86,35 +93,35 @@
         <div class="row sadrzaj">
             <div class="col-sm-9 col blog">
                 <div class="post">
-                    <div class="pitanje">
-                        Da li se psi i mačke stvarno mrze?🐾
+                    <div class="pitanje rec-pitanje1">
+                        Da li se psi i mačke stvarno mrze?
                     </div>
                     <br>
-                    <p>
+                    <p class="rec-post1">
                         Sigurno ste nekada čuli rečenicu ‘Mrze se kao pas i mačka’. Međutim, da li se psi i mačke stvarno mrze? Iskustva su veoma podeljena.
                         Postoji mnoštvo primera gde vidimo ljubav između njih. Međutim, isto tako često vidimo kako su ova dva ljubimca netrpeljiva ili agresivna jedno prema drugom. To je zbog bihevioralnih razlika među njima.
                         Psi su društveniji i brže prihvataju druge životinje i ljude, trčanje im je vrsta zabave (dok mačke trče da pobegnu od opasnosti), percipiraju režanje kao opasnost ili agresiju (dok mačke predu iz zadovoljstva), mašu repom u pozitivnom kontekstu (dok mačke mašu repom kad su uznemirene ili pred napad), itd.                  
                     </p>
                 </div>
                 <div class="post">
-                    <div class="pitanje">
-                        Linjanje - zašto se dešava i kako izaći na kraj s tim?🐾
+                    <div class="pitanje rec-pitanje2">
+                        Linjanje - zašto se dešava i kako izaći na kraj s tim?
                     </div>
                     <br>
-                    <p>
+                    <p class="rec-post2">
                         Tradicionalno, životinje se linjaju dva puta godišnje - na proleće i na jesen. Na proleće, pojavom toplijeg vremena, oni gube nepotreban zimski prekrivač i zamenjuju ga laganijim i manje gustim krznom. S druge strane, na jesen, poddlaka postaje deblja kako bi ih zaštitila od hladnijeg vremena. Ceo proces traje negde između 3 i 7 nedelja, a količina zavisi od same vrste psa, odnosno vrste dlake koju imaju.
                         Imate osećaj da se vaš ljubimac linja tokom cele godine? To je potpuno normalno! Psi i mačke koji provode većinu vremena u zatvorenom prostoru nemaju potrebu da se prilagođavaju velikim razlikama u temperaturi, te se konstantno prilagođavaju na sobnu temperaturu.
                     </p>
                 </div>
                 <div class="post">
-                    <div class="pitanje">
+                    <div class="pitanje rec-pitanje3">
                         Papagaji za početnike, a i one malo iskusnije
                     </div>
                     <br>
-                    <p>
-                        Istraživanja pokazuju da su papagaji jedna od najinteligentnijih životinja koje su poznate čoveku. Postoji mnogo razloga zbog kojih papagaji predstavljaju dobre ljubimce ali je važno i da njihovi vlasnici budu dobro informisani. Papagaji su često traženi zbog svojih zabavnih i komičnih ličnosti kao i njihovih živahnih boja. Različite vrste papagaja mogu da žive od 10 do preko 100 godina, tako da držanje papagaja kao ljubimca možemo smatrati doživotnom posvećenošću.
-
-                        Papagaji imaju odlične jezičke veštine. Često razumeju ljudski jezik, kao i dete od 4 do 5 godina. Oni su i društveni i inteligentni. Lojalni su  životni pratioci sa stvarnim emocijama. Jarkih boja, ljubazni i relativno laki za održavanje, papagaji su divni ljubimci za ljubitelje ptica svih uzrasta
+                    <p class="rec-post3">
+                        Istraživanja pokazuju da su papagaji jedna od najinteligentnijih životinja koje su poznate čoveku. Postoji mnogo razloga zbog kojih papagaji predstavljaju dobre ljubimce ali je važno i da njihovi vlasnici budu dobro informisani. Papagaji su često traženi zbog svojih zabavnih i komičnih ličnosti kao i njihovih živahnih boja. Različite vrste papagaja mogu da žive od 10 do preko 100 godina, tako da držanje 
+                        papagaja kao ljubimca možemo smatrati doživotnom posvećenošću.
+                        Papagaji imaju odlične jezičke veštine. Često razumeju ljudski jezik, kao i dete od 4 do 5 godina. Oni su i društveni i inteligentni. Lojalni su  životni pratioci sa stvarnim emocijama. Jarkih boja, ljubazni i relativno laki za održavanje, papagaji su divni ljubimci za ljubitelje ptica svih uzrasta.
                     </p>
                 </div>
                 
@@ -125,11 +132,7 @@
             </div>
         </div>
 
-        <div class="row footer">
-            <div class="col-sm-12 col text-center">
-                Copyright 2022, Jocić Katarina i Potkonjak Iva, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu 
-            </div>
-        </div>
+        <div class="row footer"> <div>
 
 
     </div>   

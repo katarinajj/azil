@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 
         for(let i = oglasi.length - 3; i < oglasi.length; i++) {
-            let dugme = $('<button></button>').addClass('btn').addClass('oglasDugme').attr('id', oglasi[i].id).text('Pogledaj oglas');
+            let dugme = $('<button></button>').addClass('btn').addClass('oglasDugme').attr('id', oglasi[i].id).text("Detalji").addClass('rec-detalji-oglasa');
             let par = $('<p></p>').text(oglasi[i].tekst);
             let oglas = $('<div></div>').addClass('oglas').append(par).append(dugme);
             $('.oglasi').append(oglas);
@@ -93,4 +93,5 @@ $(document).ready(function() {
         localStorage.setItem('pregledOglas', JSON.stringify(oglas));
         window.location.href = 'pregledOglas.html'
     })
+
 })

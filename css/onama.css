@@ -10,15 +10,20 @@
     width: 80%;
 }
 
-.tekst-o-nama img:hover {
+/* .tekst-o-nama img:hover {
     transform: scale(1.05);
-}
+} */
 
 .tekst-o-nama .post {
     width: 95%;
 }
 
+.sadrzaj {
+    padding-top: 5%;
+}
+
 .footer2 {
+    margin-top: 10%;
     font-weight: bold;
     background-color: #dececc;
     padding-top: 1%;

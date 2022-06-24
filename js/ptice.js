@@ -1,34 +1,35 @@
 jedan = {
-    ime: "Boni",
-    rasa: "labrador",
-    pol: ["ženka", "female"],
+    ime: "Koko",
+    rasa: ["kanarinac", "canary"],
+    pol: ["mužjak", "male"],
     starost: ["1 godina", "1 year"],
-    tezina: "25kg",
-    opis: "Umiljat pas, želi vlasnika sa kojim će da trči!",
-    slika: "../slike/labrador.png",
-    link: "./psi/labrador.html"
+    tezina: "50g",
+    opis: ["Veseo kanarinac, voli da leti!", "Cheerful canary, loves to fly!"],
+    slika: ["../slike/kanarinac.png", "../slike/kanarinac.png"],
+    link: "./ptice/kanarinac.html"
 };
 
+
 dva = {
-    ime: "Flipi",
-    rasa: "samojed",
-    pol: ["mužjak", "male"],
+    ime: "Klaudija",
+    rasa: ["nimfa", "nimfa"],
+    pol: ["ženka", "female"],
     starost: ["3 godine", "3 years"],
-    tezina: "25kg",
-    opis: "Umiljat pas, želi vlasnika sa kojim će da se mazi!",
-    slika: "../slike/samojed.png",
-    link: "./psi/samojed.html"
+    tezina: "28g",
+    opis: ["Veseli predstavnik porodice kakadua!", "Cheerful representative of the cockatoo family!"],
+    slika: ["../slike/nimfa.png", "../slike/nimfa.png"],
+    link: "./ptice/nimfa.html"
 };
 
 tri = {
-    ime: "Doli",
-    rasa: "pudlica",
+    ime: "Mina i Tina",
+    rasa: ["tigrice", "tigers"],
     pol: ["ženka", "female"],
     starost: ["4 godine", "4 years"],
-    tezina: "15kg",
-    opis: "Umiljat pas, želi vlasnika koji će da je voli!",
-    slika: "../slike/pudlica.png",
-    link: "./psi/pudlica.html"
+    tezina: "40g",
+    opis: ["Dva pričljiva i vesela prijatelja sa krilima!", "Two talkative and cheerful friends with wings!"],
+    slika: ["../slike/tigrica.png", "../slike/tigrica.png"],
+    link: "./ptice/tigrice.html"
 };
 
 

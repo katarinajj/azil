@@ -1,10 +1,11 @@
 #demo{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    z-index: -1;
 }
 
 .karakteristike table {
-    width: 80%;
+    width: 70%;
 }
 
 .karakteristike {
@@ -42,7 +43,7 @@
 }
 
 .baner {
-    width: 80%; 
+    width: 70%; 
     height: 50%;
     background-color: #8CA982;
     color: #f6f2f1;
@@ -51,11 +52,12 @@
 .zivotinje {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     justify-content: space-evenly;
 }
 
 .zivotinja {
+    margin-bottom: 2%;
     background-color: #8ca982;
     border-radius: 5px;
     height: fit-content;
@@ -69,20 +71,36 @@
 .zivotinja img {
     margin-top: 10%;
     margin-bottom: 5%;
-    width: 50%;
+    width: 60%;
     border-radius: 25%;
 }
 
-.zivotinja button {
+.zivotinja button, #pretrazi {
     background-color: #BA6965;
+}
+
+#pretrazi {
+    color: white;
 }
 
 .zivotinja button:hover, .zivotinja img:hover {
     transform: scale(1.2);
 }
 
-.zivotinja button a {
+.zivotinja button a, .rezultati a {
     font-weight: bolder;
     color: #262b27;
     text-decoration: none;
+}
+
+.rezultati a:hover {
+    color: #74876e;
+}
+
+.rezultati img:hover {
+    transform: scale(1.03);
+}
+
+.sadrzaj {
+    padding-top: 5%;
 }

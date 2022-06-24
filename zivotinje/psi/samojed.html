@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../../js/psi.js"></script>
     <script src="../../js/pretraga.js"></script>
+    <script src="../../js/header3.js"></script>
     <script src="../../js/srp-eng.js"></script>
     <title>Ivka - Samojed</title>
 </head>
@@ -19,7 +20,7 @@
         <div class="row header"> </div>
 
         <div class="row sadrzaj samojed">
-            <div class="col-sm-12">
+            <div class="offset-sm-9 col-sm-3 bredkrum">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="../../index.html" class="rec-pocetna">Početna</a>
@@ -36,12 +37,28 @@
                 </ul>
             </div>
             <div class="col-sm-12 col text-center">
-                <h2>Samojed Flipi</h2>
+                <h2>Flipi</h2>
             </div>
-            <div class="col-sm-7 col slike">
-                <img src="" alt="samojed" class="slika-zivotinje">
+            <div class="col-sm-12 col-md-7 col slike text-center">
+                <div id="demo" class="carousel slide text-center" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" >
+                            <img src="" alt="samojed" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="" alt="samojed1" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
             </div>
-            <div class="class-sm-5 col text-center karakteristike">
+            <div class="col-sm-12 col-md-5 col text-center karakteristike">
                 
                 <table class="table table-striped table-bordered">
                     <tr>
@@ -69,11 +86,15 @@
                     </tr>
 
                 </table>
+
+                <div class="baner d-flex justify-content-center align-items-center">BANER</div>
+
             </div>
+
 
         </div>
 
-        <div class="row footer"> </div>
+        <div class="row footer"></div>
     </div>
 </body>
 </html>

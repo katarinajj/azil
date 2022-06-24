@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/zivotinje.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/header1.js"></script>
     <script src="./js/srp-eng.js"></script>
     <title>Ivka - Životinje</title>
 </head>
@@ -17,7 +18,7 @@
         <div class="row header"> </div>
 
         <div class="row sadrzaj">
-            <div class="col-sm-12">
+            <div class="offset-sm-9 col-sm-3 bredkrum">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="index.html" class="rec-pocetna">Početna</a>
@@ -29,40 +30,43 @@
             </div>
         </div>
         <div class="row zivotinje text-center">
-            <div class=" col-sm-4 col zivotinja text-center">
+            <div class="col-sm-12 col-md-4 col zivotinja">
                 <div>
                     <img src="./slike/pas.png" alt="pas">
                 </div>
                 <hr>
                 <div>
-                    <button class="btn"> <a href="./zivotinje/psi.html">Pas</a></button>
-                    <br>
-                    Psi su verovatno prve pripitomljene životinje, koje čoveku verno služe sve do danas.
-                    Uverite se u to da je pas čovekov najbolji prijatelj.
+                    <button class="btn"> <a href="./zivotinje/psi.html" class="rec-pas">Pas</a></button>
+                    <div class="rec-pas-tekst">
+                        Psi su verovatno prve pripitomljene životinje, koje čoveku verno služe sve do danas.
+                        Uverite se da je pas čovekov najbolji prijatelj.
+                    </div>
                 </div>                  
             </div>
-            <div class=" col-sm-4 col zivotinja">
+            <div class="col-sm-12 col-md-4 col zivotinja">
                     <div>
                         <img src="./slike/macka.png" alt="macka">
                     </div>
                     <hr>
                     <div>
-                        <button class="btn"> <a href="./zivotinje/macke.html">Mačka</a></button>
-                        <br>
-                        Mačke žive u bliskoj vezi sa ljudima najmanje 9.500 godina. 
-                        Pogledaj našu ponudi i pronađi svog prijatelja!
+                        <button class="btn"> <a href="./zivotinje/macke.html" class="rec-macka">Mačka</a></button>
+                        <div class="rec-macka-tekst">
+                            Mačke žive u bliskoj vezi sa ljudima najmanje 9.500 godina. 
+                            Pogledaj našu ponudi i pronađi svog prijatelja!
+                        </div>
                     </div>               
             </div>
-            <div class=" col-sm-4 col zivotinja">  
+            <div class="col-sm-12 col-md-4 col zivotinja">  
                 <div>
                     <img src="./slike/ptica.png" alt="ptica">
                 </div>
                 <hr>
                 <div>
-                    <button class="btn"> <a href="./zivotinje/ptice.html">Ptica</a></button>
-                    <br>
-                    Pored pasa i mačaka, ova ptica je najpoželjniji ljubimac u svetu. 
-                    Ulepšaće Vaš dom novim bojama i zvukovima.
+                    <button class="btn"> <a href="./zivotinje/ptice.html" class="rec-ptica">Ptica</a></button>
+                    <div class="rec-ptica-tekst">
+                        Pored pasa i mačaka, ova ptica je najpoželjniji ljubimac u svetu. 
+                        Ulepšaće Vaš dom novim bojama i zvukovima.
+                    </div>           
                 </div>  
             </div>
         </div>
