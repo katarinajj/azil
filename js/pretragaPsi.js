@@ -1,8 +1,8 @@
 jedan = {
     ime: "Boni",
     rasa: "labrador",
-    pol: "ženka",
-    starost: "1 godina",
+    pol: ["ženka", "female"],
+    starost: ["1 godina", "1 year"],
     tezina: "25kg",
     opis: "Umiljat pas, želi vlasnika sa kojim će da trči!",
     slika: "../slike/labrador.png",
@@ -12,8 +12,8 @@ jedan = {
 dva = {
     ime: "Flipi",
     rasa: "samojed",
-    pol: "mužjak",
-    starost: "3 godine",
+    pol: ["mužjak", "male"],
+    starost: ["3 godine", "3 years"],
     tezina: "25kg",
     opis: "Umiljat pas, želi vlasnika sa kojim će da se mazi!",
     slika: "../slike/samojed.png",
@@ -23,8 +23,8 @@ dva = {
 tri = {
     ime: "Doli",
     rasa: "pudlica",
-    pol: "ženka",
-    starost: "4 godine",
+    pol: ["ženka", "female"],
+    starost: ["4 godine", "4 years"],
     tezina: "15kg",
     opis: "Umiljat pas, želi vlasnika koji će da je voli!",
     slika: "../slike/pudlica.png",
@@ -35,11 +35,11 @@ tri = {
 const niz = [jedan, dva, tri];
 
 function komparatorStarostRastuce(a, b) {
-    return parseInt(a.starost) - parseInt(b.starost);
+    return parseInt(a.starost[0]) - parseInt(b.starost[0]);
 }
 
 function komparatorStarostOpadajuce(a, b) {
-    return parseInt(b.starost) - parseInt(a.starost);
+    return parseInt(b.starost[0]) - parseInt(a.starost[0]);
 }
 
 function filtriranje(filter, starost) {
@@ -68,7 +68,7 @@ function izlistajRezultate() {
     let unetNaziv = $(".pretraga input").val();
 
     for (let i = 0; i < niz.length; i++) {
-        if (filtriranje(filter, niz[i].starost) == false) continue;
+        if (filtriranje(filter, niz[i].starost[0]) == false) continue;
         if (filterNazivRase(unetNaziv, niz[i].rasa) == false) continue;
 
         let rezultat = $("<div></div>");
@@ -82,12 +82,12 @@ function izlistajRezultate() {
 
 }
 
-function popuniPolja() {
+function popuniPolja(jezik) {
     for (let i = 0; i < niz.length; i++) {
         let rasa = niz[i].rasa;
         $("." + rasa + " .rasa").text(niz[i].rasa);
-        $("." + rasa + " .pol").text(niz[i].pol);
-        $("." + rasa + " .starost").text(niz[i].starost);
+        $("." + rasa + " .pol").text(niz[i].pol[jezik]);
+        $("." + rasa + " .starost").text(niz[i].starost[jezik]);
         $("." + rasa + " .tezina").text(niz[i].tezina);
         $("." + rasa + " .opis").text(niz[i].opis);
         $("." + rasa + " .slike img").attr("src", "../" + niz[i].slika);
@@ -95,9 +95,10 @@ function popuniPolja() {
 }
 
 $(document).ready(function() {
+    let jezik = parseInt(localStorage.getItem("jezik")) - 1;
     if ($("title").html() == "Ivka - Psi") izlistajRezultate();
 
     $("#pretrazi").click(izlistajRezultate);
 
-    popuniPolja();
+    popuniPolja(jezik);
 });
