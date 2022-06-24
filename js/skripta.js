@@ -94,4 +94,8 @@ $(document).ready(function() {
         window.location.href = 'pregledOglas.html'
     })
 
+    $("#dropdownMenuLink").on('click', function() {
+        window.location.href = 'zivotinje.html'
+    })
+
 })

@@ -84,8 +84,8 @@ const reci = [
     Pogledaj našu ponudi i pronađi svog prijatelja!", "Cats have lived in close contact with humans for at least 9,500 years. Take a look at our offer and find your friend!"],
     ["rec-ptica-tekst", "Pored pasa i mačaka, ova ptica je najpoželjniji ljubimac u svetu. \ Ulepšaće Vaš dom novim bojama i zvukovima.", 
     "In addition to dogs and cats, this bird is the most desirable pet in the world. It will beautify your home with colors and sounds."],
-    ["rec-pas-tekst", "Psi su verovatno prve pripitomljene životinje, koje čoveku verno služe sve do danas.\
-    Uverite se da je pas čovekov najbolji prijatelj.", "Dogs are probably the first domesticated animals, which have served man faithfully to this day.\
+    ["rec-pas-tekst", "Psi su verovatno prve pripitomljene životinje, koje čoveku verno služe do danas.\
+    Uverite se, pas je čovekov najbolji prijatelj.", "Dogs are probably the first domesticated animals, which have served man faithfully to this day.\
     The dog is man's best friend."],
     ["rec-filter-starost", "Filtriraj starost", "Filter by age"],
     ["rec-sve-starosti", "Sve starosti", "All ages"],
