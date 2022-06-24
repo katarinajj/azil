@@ -22,33 +22,45 @@
             <div class="col-sm-12">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="index.html">Početna</a>
+                        <a href="../index.html">Početna</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="zivotinje.html">Životinje</a>
+                        <a href="../zivotinje.html">Životinje</a>
                     </li>
                     <li class="breadcrumb-item">
                         <a href="psi.html">Psi</a>
                     </li>
                 </ul>
             </div>
-
-            <div class="col-sm-12 pretraga">
-                <select>
-                    <option value="">Naziv opadajuće</option>
-                    <option value="">Naziv rastuće</option>
-                    <option value="">Starost opadajuće</option>
-                    <option value="">Starost rastuće</option>
+        </div>
+        <div class="row sadrzaj pretraga text-center">
+            <div class="col-sm-6 col-md-3 col">
+                <select id="sortiranje">
+                    <option value="3"> -- Sortiraj pretragu -- </option>
+                    <option value="1">Naziv rastuće</option>
+                    <option value="2">Naziv opadajuće</option>
+                    <option value="3">Starost rastuće</option>
+                    <option value="4">Starost opadajuće</option>
                 </select>
-                <select>
-                    <option value="">Starost do 1 godine</option>
-                    <option value="">starost do 5 godina</option>
-                    <option value="">Starost preko 5 godina</option>
-                </select>
-                <input type="text" placeholder="Pretraga po nazivu">
-                <button class="btn btn-dark" id="pretrazi">Pretraži</button>
             </div>
-            <div class="col-sm-12 rezultati">  </div>
+            <div class="col-sm-6 col-md-3 col">
+                <select id="filtriranje">
+                    <option value="1"> -- Filtriraj starost -- </option>
+                    <option value="1">Sve starosti</option>
+                    <option value="2">Starost do 1 godine</option>
+                    <option value="3">Starost do 3 godine</option>
+                    <option value="4">Starost preko 3 godine</option>
+                </select>
+            </div>
+            <div class="col-sm-6 col-md-3 col">
+                <input type="text" placeholder="Pretraga po nazivu rase">
+            </div>
+            <div class="col-sm-6 col-md-3 col">
+                <button class="btn btn-dark" id="pretrazi">Pretraži</button>
+            </div> 
+            <div class="col-sm-12 rezultati">
+                
+            </div>
             
 
         </div>

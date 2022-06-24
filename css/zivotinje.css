@@ -14,13 +14,15 @@
     position: fixed;
 }
 
-
-.pretraga {
+.pretraga .col {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+.pretraga .col select, .pretraga .col input, .pretraga .col button{
+    height: 100%;
 }
 
 .rezultati {
@@ -32,5 +34,5 @@
 }
 
 .rezultat img {
-    width: 80%;
+    height: 300px;
 }
