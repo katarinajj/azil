@@ -1,13 +1,16 @@
-.slike {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-    
+#demo{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.slika-zivotinje, .karakteristike table{
+.karakteristike table {
     width: 80%;
+}
+
+.karakteristike {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .footer{
@@ -36,3 +39,4 @@
 .rezultat img {
     height: 300px;
 }
+

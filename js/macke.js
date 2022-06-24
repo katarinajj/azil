@@ -32,5 +32,5 @@ tri = {
 };
 
 
-const niz = [jedan, dva, tri];
+niz = [jedan, dva, tri];
 

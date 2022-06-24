@@ -9,20 +9,52 @@
 .tekst-o-nama img {
     width: 80%;
 }
+
+.tekst-o-nama img:hover {
+    transform: scale(1.05);
+}
+
 .tekst-o-nama .post {
     width: 95%;
 }
 
-.kontakt {
-    background-color: #a37a78;
+.footer2 {
+    font-weight: bold;
+    background-color: #dececc;
+    padding-top: 1%;
+    /* position: fixed; */
+    bottom: 0;
+}
+.footer {
+    font-weight: normal;
 }
 
-.kontakt div {
-    color: #f6f2f1;
-    font-weight: bold;
+.footer2 .kontakt ul {
+    list-style-type: none;
 }
 
-.kontakt .crno {
-    color: black;
-    font-weight: bold;
+.footer2 .kontakt li {
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.footer2 .zeleno {
+    color: #74876e;
+    letter-spacing: 2px;
+    margin-bottom: 1%;
+}
+
+.footer2 a {
+    color: #262b27;
+    text-decoration: none;
+}
+
+.footer2 a:hover i,  .footer2 a:hover {
+    color: #566158;
+    transform: scale(2);
+}
+
+.footer2 a i {
+    margin-left: 3%;
+    margin-right: 3%;
 }

@@ -11,8 +11,8 @@ const reci = [
     ["rec-pitanje1", "Da li se psi i mačke stvarno mrze?", "Do cats and dogs really hate eachother?"],
     ["rec-pitanje2", "Linjanje - zašto se dešava i kako izaći na kraj s tim?", "?? - Why it happens and how to handle it?"],
     ["rec-pitanje3", "Papagaji za početnike, a i one malo iskusnije", "Parrots for begginers, and for more experienced"],
-    ["rec-footer", "Copyright 2022, Jocić Katarina i Potkonjak Iva, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
-    "Deparment for software engineering, School of Electrical Engineering, University of Belgrade"],
+    ["rec-footer", "Copyright © 2022, Jocić Katarina i Potkonjak Iva, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
+    "Copyright © 2022, Jocić Katarina i Potkonjak Iva, Deparment for software engineering, School of Electrical Engineering, University of Belgrade"],
     ["rec-psi", "Psi", "Dogs"],
     ["rec-samojed", "Samojed", "Samoyed"],
     ["rec-labrador", "Labrador", "Labrador"],
@@ -31,7 +31,9 @@ const reci = [
     ["rec-naziv-r", "Naziv rastuce", "Breed ascending"],
     ["rec-naziv-o", "Naziv opadajuce", "Breed descending"],
     ["rec-starost-r", "Starost rastuce", "Age ascending"],
-    ["rec-starost-o", "Starost opadajuce", "Age descending"]
+    ["rec-starost-o", "Starost opadajuce", "Age descending"],
+    ["rec-kontakt-info", "Kontakt informacije", "Contact info"],
+    ["rec-adresa", "Kako do nas?", "Where can you find us?"]
 
 ]
 
@@ -50,6 +52,10 @@ function menjajTekst() {
 }
 
 $(document).ready(function() {
+    let footer = '<div class="col-sm-12 col text-center rec-footer">Copyright © 2022, Jocić Katarina i Potkonjak Iva, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu</div>';
+    let footerElem = $(footer);
+    $(".footer").append(footerElem);
+
     inicijalizacija();
 
     $("#zastava_srb").click(function() {
