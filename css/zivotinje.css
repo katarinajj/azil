@@ -10,7 +10,8 @@
 .karakteristike {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer{
@@ -40,3 +41,48 @@
     height: 300px;
 }
 
+.baner {
+    width: 80%; 
+    height: 50%;
+    background-color: #8CA982;
+    color: #f6f2f1;
+}
+
+.zivotinje {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.zivotinja {
+    background-color: #8ca982;
+    border-radius: 5px;
+    height: fit-content;
+    width: 350px;
+    padding: 2px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    color: white;
+}
+
+.zivotinja img {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 50%;
+    border-radius: 25%;
+}
+
+.zivotinja button {
+    background-color: #BA6965;
+}
+
+.zivotinja button:hover, .zivotinja img:hover {
+    transform: scale(1.2);
+}
+
+.zivotinja button a {
+    font-weight: bolder;
+    color: #262b27;
+    text-decoration: none;
+}
