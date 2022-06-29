@@ -14,7 +14,7 @@ $(document).ready(function() {
         komentari = JSON.parse(localStorage.getItem('komentari'));
         for(let i = 0; i < komentari.length; i++) {
             if(komentari[i].oglas == oglas.id) {
-                let komentar = $('<div></div>').addClass('komentar').text(komentari[i].korisnik + " - " + komentari[i].tekst);
+                let komentar = $('<li></li>').addClass('komentar').addClass('list-group-item').text(komentari[i].korisnik + " - " + komentari[i].tekst);
                 $('#komentari').append(komentar);
             }
         }
@@ -32,7 +32,7 @@ $(document).ready(function() {
 
             komentari.push(noviKoment);
             localStorage.setItem('komentari', JSON.stringify(komentari));
-            let komentar = $('<div></div>').addClass('komentar').text(noviKoment.korisnik + " - " + noviKoment.tekst);
+            let komentar = $('<li></li>').addClass('komentar').addClass('list-group-item').text(noviKoment.korisnik + " - " + noviKoment.tekst);
             $('#komentari').append(komentar);
         }
     })
