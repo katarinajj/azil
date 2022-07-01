@@ -1,0 +1,42 @@
+.oglasIzg {
+    /* display: flex;
+    justify-content: flex-start; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    text-align: left;
+    padding: 0;
+    background-color: #94a38f;
+    border: #936462 solid 2px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.oglasIzg p {
+    color: #f6f2f1;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.oglasIzg button{
+    background-color: #a37a78;
+    /* align-self: center; */
+    color: #f6f2f1;
+    border: #7a5352 solid 0.5px;
+    height: fit-content;
+}
+.dugmeWrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infoKor {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    color: #f6f2f1;
+}
