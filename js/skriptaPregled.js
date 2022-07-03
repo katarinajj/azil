@@ -7,23 +7,26 @@ $(document).ready(function() {
     function init() {
         let hist = localStorage.getItem('history');
         let link;
+        let klasa;
     //     <li class="breadcrumb-item">
     //     <a href="pregledOglas.html" class="rec-zivotinje">Pregled oglasa</a>
     // </li>
         switch(hist) {
             case 'Moj nalog':
                 link = "mojaNalog.html";
+                klasa = "rec-nalog";
                 break;
             case 'Izgubljeni ljubimci':
                 link = "izgubljeniLjubimci.html";
-                break;
-            default:
-                link = "index.html";
+                klasa = "rec-izgubljeni";
                 break;
         }
-        $('<li></li>').addClass('breadcrumb-item').append(
-            $('<a></a>').addClass('rec-zivotinje').prop('href', link).text(hist)
-        ).insertBefore('.poslednji');
+        if(hist != "Početna") {
+            $('<li></li>').addClass('breadcrumb-item').append(
+                $('<a></a>').addClass(klasa).prop('href', link).text(hist)
+            ).insertBefore('.poslednji');
+        }
+        
         oglas = JSON.parse(localStorage.getItem('pregledOglas'));
         $('#korisnik').text(oglas.korisnik);
         $('#kontakt').text(oglas.telefon);

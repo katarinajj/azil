@@ -96,7 +96,14 @@ const reci = [
     ["rec-vasi-komentari", "Vaši komentari", "Your comments"],
     ["rec-vas-profil", "Vaš profil", "Your profile"],
     ["rec-obrisi", "Obriši", "Delete"],
-    ["rec-pregled-oglasa", "Preglej oglas", "View ad"],
+    ["rec-pregled-oglasa", "Pregled oglasa", "View ad"],
+    ["rec-nalog", "Moj nalog", "My profile"],
+    ["rec-ostavi", "Ostavi komentar", "Leave a comment"],
+    ["rec-komentari", "Komentari:", "Comments"]
+    
+
+    
+
 ]
 
 const placehold = ["--", "Pretraga po nazivu rase", "Search breed name"]
