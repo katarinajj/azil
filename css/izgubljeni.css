@@ -51,3 +51,5 @@ p {
     width: 100%;
     word-wrap: break-word;
 }
+
+.margbot { margin-bottom: 3vh; }
