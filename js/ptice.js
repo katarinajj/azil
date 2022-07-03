@@ -5,7 +5,7 @@ jedan = {
     starost: ["1 godina", "1 year"],
     tezina: "50g",
     opis: ["Veseo kanarinac, voli da leti!", "Cheerful canary, loves to fly!"],
-    slika: ["../slike/kanarinac.png", "../slike/kanarinac.png"],
+    slika: ["../slike/kanarinac.png", "../slike/kanarinac2.png"],
     link: "./ptice/kanarinac.html"
 };
 
@@ -17,7 +17,7 @@ dva = {
     starost: ["3 godine", "3 years"],
     tezina: "28g",
     opis: ["Veseli predstavnik porodice kakadua!", "Cheerful representative of the cockatoo family!"],
-    slika: ["../slike/nimfa.png", "../slike/nimfa.png"],
+    slika: ["../slike/nimfa.png", "../slike/nimfa2.png"],
     link: "./ptice/nimfa.html"
 };
 
@@ -28,7 +28,7 @@ tri = {
     starost: ["4 godine", "4 years"],
     tezina: "40g",
     opis: ["Dva pričljiva i vesela prijatelja sa krilima!", "Two talkative and cheerful friends with wings!"],
-    slika: ["../slike/tigrica.png", "../slike/tigrica.png"],
+    slika: ["../slike/tigrica.png", "../slike/tigrica2.png"],
     link: "./ptice/tigrice.html"
 };
 
