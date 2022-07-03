@@ -32,7 +32,7 @@ function filterNazivRase(unetNaziv, rasa) {
     return true;
 }
 
-function izlistajRezultate() {
+function izlistajRezultate(jezik) {
     $(".rezultati").empty();
     let komparator = $("#sortiranje").val();
     switch(komparator) {
@@ -51,10 +51,14 @@ function izlistajRezultate() {
 
         let rezultat = $("<div></div>");
         let slika = $("<img>").attr("src", niz[i].slika[0]);
+        $(slika).click(function() {
+            window.location.href = "" + niz[i].link;
+        });
         let link = $("<a href=" + niz[i].link + ">Ime</a>").text(niz[i].ime);
         let ime = $("<div></div>").append(link);
-        let opis = $("<div></div>").text(niz[i].opis[jezik]);
-        rezultat.append(slika).append(ime).append(opis).addClass("rezultat")
+        // let opis = $("<div></div>").text(niz[i].opis[jezik]);
+        //rezultat.append(slika).append(ime).append(opis).addClass("rezultat")
+        rezultat.append(slika).append(ime).addClass("rezultat")
         $(".rezultati").append(rezultat);
     }
 
@@ -75,9 +79,11 @@ function popuniPolja(jezik) {
 
 $(document).ready(function() {
     let jezik = parseInt(localStorage.getItem("jezik")) - 1;
-    if ($(".pretraga").length) izlistajRezultate();
+    if ($(".pretraga").length) izlistajRezultate(jezik);
 
-    $("#pretrazi").click(izlistajRezultate);
+    $("#pretrazi").click(function(){
+        izlistajRezultate(jezik);
+    });
 
     popuniPolja(jezik);
 });

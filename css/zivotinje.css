@@ -19,9 +19,14 @@
     position: fixed;
 }
 
+.pretraga {
+    margin-top: 0%;
+    padding: 0%;
+}
+
 .pretraga .col {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     margin-bottom: 1%;
 }

@@ -40,3 +40,7 @@
     font-style: italic;
     color: #f6f2f1;
 }
+
+.footer{
+    position: fixed;
+}

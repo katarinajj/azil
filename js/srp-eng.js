@@ -34,7 +34,7 @@ const reci = [
     ["rec-starost", "Starost", "Age"],
     ["rec-tezina", "Tezina", "Weight"],
     ["rec-opis", "Opis", "Description"],
-    ["rec-pretrazi", "Pretrazi", "Find"], 
+    ["rec-pretrazi", "Pretraži", "Find"], 
     ["rec-pretraga-po-rasi", "Pretraga po nazivu rase", "Search for breed"],
     ["rec-sortiraj-pretragu", "Sortiraj pretragu", "Sort results"],
     ["rec-naziv-r", "Naziv rastuce", "Breed ascending"],
