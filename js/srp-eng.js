@@ -92,7 +92,11 @@ const reci = [
     ["rec-do-1", "Starost do 1 godine", "Under 1 year"],
     ["rec-do-3", "Starost do 3 godine", "Under 3 years"],
     ["rec-preko-3", "Starost preko 3 godine", "Above 3 years"],
-
+    ["rec-vasi-oglasi", "Vaši oglasi", "Your ads"],
+    ["rec-vasi-komentari", "Vaši komentari", "Your comments"],
+    ["rec-vas-profil", "Vaš profil", "Your profile"],
+    ["rec-obrisi", "Obriši", "Delete"],
+    ["rec-pregled-oglasa", "Preglej oglas", "View ad"]
 
     
 
