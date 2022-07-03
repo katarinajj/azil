@@ -1,3 +1,13 @@
 .footer{
     position: fixed;
 }
+
+.profil-info {
+    text-align: center;
+}
+
+.profil-info img {
+    width: 20vw;
+    /* height: 30px; */
+
+}
