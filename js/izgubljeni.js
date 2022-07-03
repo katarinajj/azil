@@ -14,7 +14,8 @@ $(document).ready(function() {
             for(let i = 0; i < oglasi.length; i++) {
                 let dugme = $('<button></button>').addClass('btn').addClass('oglasDugme').attr('id', oglasi[i].id).text("Detalji").addClass('rec-detalji-oglasa');
                 let par = $('<p></p>').text(oglasi[i].tekst);
-                let kor = $('<div></div>').addClass('infoKor').append($("<span></span>").text("Korisnik:").addClass("rec-korisnik")).append($("<span></span>").text(oglasi[i].korisnik));//.text("Korisnik: " + oglasi[i].korisnik);
+                let kor = $('<div></div>').addClass('infoKor').append($("<span></span>").text("Korisnik:").addClass("rec-korisnik")).append($("<span></span>").text(oglasi[i].korisnik))
+                .append($('<span></span>').html('&emsp;')).append($("<span></span>").text("Kontakt:").addClass("rec-kontakt")).append($("<span></span>").text(oglasi[i].telefon));
 
 
                 let info = $('<div></div>').addClass('col-sm-8').addClass('infoWrap').append(par).append(kor);
