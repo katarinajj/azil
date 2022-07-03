@@ -1,7 +1,11 @@
 #komentarisi{
     display: flex;
-    justify-content: flex-start !important;
+    justify-content: center !important;
     flex-wrap: wrap;
+    width: 80%;
+    border: #8ca982 solid 2px;
+    border-radius: 10px;
+    text-align: center;
 }
 .break {
     flex-basis: 100%;
@@ -9,7 +13,7 @@
 }
 #dodajOglas {
     background-color: #a37a78;
-    align-self: flex-end;
+    align-self: center;
     color: #f6f2f1;
     border: #7a5352 solid 0.5px;
     margin: 5px;
@@ -28,4 +32,9 @@
 .btn:hover {
    
     transform: scale(1.1);
+}
+#dodajTelo {
+    display: flex;
+    justify-content: center;
+
 }
