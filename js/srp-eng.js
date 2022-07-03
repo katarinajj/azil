@@ -96,11 +96,10 @@ const reci = [
     ["rec-vasi-komentari", "Vaši komentari", "Your comments"],
     ["rec-vas-profil", "Vaš profil", "Your profile"],
     ["rec-obrisi", "Obriši", "Delete"],
-    ["rec-pregled-oglasa", "Preglej oglas", "View ad"]
-
-    
-
+    ["rec-pregled-oglasa", "Preglej oglas", "View ad"],
 ]
+
+const placehold = ["--", "Pretraga po nazivu rase", "Search breed name"]
 
 function inicijalizacija() {
     if (localStorage.getItem("jezik") == null) {
@@ -127,6 +126,7 @@ function menjajTekst() {
     for (let i = 0; i < reci.length; i++){
         $("." + reci[i][0]).text(reci[i][jezik]);
     }
+    $("#placehold").attr("placeholder", placehold[jezik]);
 }
 
 $(document).ready(function() {
