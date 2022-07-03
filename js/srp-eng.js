@@ -99,7 +99,13 @@ const reci = [
     ["rec-pregled-oglasa", "Pregled oglasa", "View ad"],
     ["rec-nalog", "Moj nalog", "My profile"],
     ["rec-ostavi", "Ostavi komentar", "Leave a comment"],
-    ["rec-komentari", "Komentari:", "Comments"]
+    ["rec-komentari", "Komentari:", "Comments:"],
+    ["rec-korisnik", "Korisnik:", "User:"],
+    ["rec-kontakt", "Kontakt:", "Contact:"],
+    ["rec-tekst-dodaj-oglas", "Ukoliko je Vaš ljubimac nestao možete ostaviti oglas u kome navodite njegov opis kao i lokaciju na kojoj je poslednji put viđen. Ostali korisnici će komentarisati objavu\
+    sa informacijama koje bi mogle biti od pomoći u nalaženju Vaše životinje!", "If your pet is missing, you can leave an ad in which you state its description as well as the location where it was last seen. Other users will comment on the post\
+    with information that could be helpful in finding your animal!"],
+    ["rec-uspeh", "Uspešno ste objavili oglas!", "Your add was successfully published!"]
     
 
     

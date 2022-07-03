@@ -24,7 +24,7 @@ $(document).ready(function() {
                 id: '0',
                 korisnik: 'ana',
                 telefon: '062987654',
-                tekst: 'Bela maca sa flekom iznad desnog oka i šarenim repom. Poslednji put viđena na putu za Institut Vinča'
+                tekst: 'Bela maca sa flekom iznad desnog oka i šarenim repom. Poslednji put viđena na putu za Institut Vinča.'
             },
             {
                 id: '1',
@@ -36,7 +36,7 @@ $(document).ready(function() {
                 id: '2',
                 korisnik: 'dragan',
                 telefon: '062456123',
-                tekst: 'Nestao jazavicar star 5 meseca odaziva se na ime Toma.'
+                tekst: 'Nestao jazavicar star 5 meseci odaziva se na ime Toma.'
             }
             ];
             localStorage.setItem('oglasi', JSON.stringify(oglasi));

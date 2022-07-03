@@ -12,7 +12,11 @@ $(document).ready(function() {
                 telefon: korisnik.telefon,
                 tekst: txt
             };
-            $('.uspeh').text("Uspešno ste objavili oglas!");
+            let jezik = localStorage.getItem('jezik');
+            if(jezik == 2) {
+                $('.uspeh').addClass("rec-uspeh").text("Your add was successfully published!");
+            }
+            else $('.uspeh').addClass("rec-uspeh").text("Uspešno ste objavili oglas!");
             oglasi.push(noviOglas);
             localStorage.setItem('oglasi', JSON.stringify(oglasi));
         }
