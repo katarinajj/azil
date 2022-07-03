@@ -91,7 +91,7 @@ $(document).ready(function() {
                 break;
             }
         }
-        
+        localStorage.setItem('history', 'Moj nalog');
         localStorage.setItem('pregledOglas', JSON.stringify(oglas));
         window.location.href = 'pregledOglas.html'
     })

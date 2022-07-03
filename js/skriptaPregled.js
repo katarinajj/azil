@@ -5,7 +5,25 @@ $(document).ready(function() {
     init();
 
     function init() {
-
+        let hist = localStorage.getItem('history');
+        let link;
+    //     <li class="breadcrumb-item">
+    //     <a href="pregledOglas.html" class="rec-zivotinje">Pregled oglasa</a>
+    // </li>
+        switch(hist) {
+            case 'Moj nalog':
+                link = "mojaNalog.html";
+                break;
+            case 'Izgubljeni ljubimci':
+                link = "izgubljeniLjubimci.html";
+                break;
+            default:
+                link = "index.html";
+                break;
+        }
+        $('<li></li>').addClass('breadcrumb-item').append(
+            $('<a></a>').addClass('rec-zivotinje').prop('href', link).text(hist)
+        ).insertBefore('.poslednji');
         oglas = JSON.parse(localStorage.getItem('pregledOglas'));
         $('#korisnik').text(oglas.korisnik);
         $('#kontakt').text(oglas.telefon);

@@ -39,7 +39,8 @@ $(document).ready(function() {
                 break;
             }
         }
-
+        alert('aaaaaaaaaaa');
+        localStorage.setItem('history', 'Izgubljeni ljubimci');
         localStorage.setItem('pregledOglas', JSON.stringify(oglas));
         window.location.href = 'pregledOglas.html'
     })

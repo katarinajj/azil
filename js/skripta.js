@@ -89,7 +89,7 @@ $(document).ready(function() {
                 break;
             }
         }
-
+        localStorage.setItem('history', 'Početna');
         localStorage.setItem('pregledOglas', JSON.stringify(oglas));
         window.location.href = 'pregledOglas.html'
     })
