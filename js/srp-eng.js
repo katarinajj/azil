@@ -105,7 +105,8 @@ const reci = [
     ["rec-tekst-dodaj-oglas", "Ukoliko je Vaš ljubimac nestao možete ostaviti oglas u kome navodite njegov opis kao i lokaciju na kojoj je poslednji put viđen. Ostali korisnici će komentarisati objavu\
     sa informacijama koje bi mogle biti od pomoći u nalaženju Vaše životinje!", "If your pet is missing, you can leave an ad in which you state its description as well as the location where it was last seen. Other users will comment on the post\
     with information that could be helpful in finding your animal!"],
-    ["rec-uspeh", "Uspešno ste objavili oglas!", "Your add was successfully published!"]
+    ["rec-uspeh", "Uspešno ste objavili oglas!", "Your add was successfully published!"],
+    ["rec-opcioni-broj", "Ukoliko želite možete navesti telefon na koji Vas drugi korisnici mogu kontaktirati u vezi Vašeg oglasa. Ukoliko ne navedete kontakt podrazumevano će biti korišćen broj ostavljen pri regisraciji.","If you wish, you can specify a phone number where other users can contact you regarding your ad. If you do not specify a contact number, the number left during registration will be used by default."]
     
 
     

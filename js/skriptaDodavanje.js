@@ -6,10 +6,12 @@ $(document).ready(function() {
     $('#dodajOglas').on('click',function() {
         let txt = $('#tekstOglas').val();
         if(txt != '') {
+            let br = $('#korKontakt').val();
+            if(br == '') br = korisnik.telefon;
             let noviOglas = {
                 id: oglasi.length + '',
                 korisnik: korisnik.korime,
-                telefon: korisnik.telefon,
+                telefon: br,
                 tekst: txt
             };
             let jezik = localStorage.getItem('jezik');
