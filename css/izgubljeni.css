@@ -47,3 +47,7 @@
 .bredkrum {
     margin-top: 15px;
 }
+p {
+    width: 100%;
+    word-wrap: break-word;
+}
