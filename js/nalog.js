@@ -7,6 +7,9 @@ $(document).ready(function() {
 
     function init() {
         korisnik = JSON.parse(localStorage.getItem('korisnik'));
+
+        $('#korime').text(korisnik.korime);
+        $('#kontakt').text(korisnik.telefon)
         if(localStorage.getItem('oglasi') == null) {
             oglasi = [];
             localStorage.setItem('oglasi', JSON.stringify(oglasi));
@@ -19,10 +22,10 @@ $(document).ready(function() {
 
                     let dugme = $('<button></button>').addClass('btn').addClass('oglasDugme').attr('id', oglasi[i].id).text("Obrisi").addClass('rec-detalji-oglasa');
                     let par = $('<p></p>').text(oglasi[i].tekst);
-                    let kor = $('<div></div>').addClass('infoKor').text("Kontakt: " + oglasi[i].telefon);
+                    // let kor = $('<div></div>').addClass('infoKor').text("Kontakt: " + oglasi[i].telefon);
 
 
-                    let info = $('<div></div>').addClass('col-sm-8').addClass('infoWrap').append(par).append(kor);
+                    let info = $('<div></div>').addClass('col-sm-8').addClass('infoWrap').append(par);// .append(kor);
                     let dug = $('<div></div>').addClass('col-sm-4').addClass('dugmeWrap').append(dugme);
                     let red = $('<div></div>').addClass('row').addClass('oglasIzg').addClass(oglasi[i].id).append(info).append(dug)
 

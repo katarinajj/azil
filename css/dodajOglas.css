@@ -1,6 +1,6 @@
 #komentarisi{
     display: flex;
-    justify-content: center !important;
+    justify-content: flex-start !important;
     flex-wrap: wrap;
 }
 .break {
@@ -9,16 +9,23 @@
 }
 #dodajOglas {
     background-color: #a37a78;
-    align-self: center;
+    align-self: flex-end;
     color: #f6f2f1;
     border: #7a5352 solid 0.5px;
     margin: 5px;
 }
-#tekstOglas {
+/* #tekstOglas {
     margin-top: 50px;
     
-}
+} */
 
 .footer{
     position: fixed;
+}
+.bredkrum {
+    margin-top: 15px;
+}
+.btn:hover {
+   
+    transform: scale(1.1);
 }

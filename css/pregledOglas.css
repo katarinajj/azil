@@ -3,3 +3,19 @@
     margin-bottom: 10px;
     overflow-y: scroll;
 }
+.bredkrum {
+    margin-top: 15px;
+}
+#tekst {
+    font-size: 20px;
+}
+#ostaviKoment{
+    background-color: #a37a78;
+    /* align-self: center; */
+    color: #f6f2f1;
+    border: #7a5352 solid 0.5px;
+    height: fit-content;
+}
+.footer{
+    position: fixed;
+}
