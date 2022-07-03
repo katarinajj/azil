@@ -56,6 +56,11 @@ $(document).ready(function() {
             let komentar = $('<li></li>').addClass('komentar').addClass('list-group-item').text(noviKoment.korisnik + " - " + noviKoment.tekst);
             $('#komentari').append(komentar);
         }
-    })
+    });
+
+    $("#stampajOglas").click(function() {
+        print()
+    });
 
 })
+

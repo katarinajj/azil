@@ -9,7 +9,7 @@
 #tekst {
     font-size: 20px;
 }
-#ostaviKoment{
+#ostaviKoment, #stampajOglas{
     background-color: #a37a78;
     /* align-self: center; */
     color: #f6f2f1;
