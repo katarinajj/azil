@@ -52,4 +52,9 @@ p {
     word-wrap: break-word;
 }
 
-.margbot { margin-bottom: 3vh; }
+.oglasi {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.margbot { margin-bottom: 5vh; }
