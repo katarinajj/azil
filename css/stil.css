@@ -3,11 +3,13 @@
 }
 
 #logo {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: 5%;
-    left: 2%;
+    /* width: 5vw; */
+    height: 10vh;
+    /* position: absolute; */
+    /* top: 5%;
+    left: 2%; */
+    margin-left: 3vw;
+    margin-top: 0.8vh;
     border: #262b27 solid 1.2px;
     box-shadow: 5px 5px #566158;
 }
@@ -27,16 +29,11 @@
 }
 
 .header {
-    padding-top: 0.5%;
     padding-bottom: 0.5%;
     background-color: #d1bbbd;
-    position: fixed;
+    /* position: fixed; */
 }
 
-.sadrzaj {
-    margin-top: 1%;
-    padding-top: 3%;
-}
 
 /* .bredkrum {
     position: fixed;
@@ -95,7 +92,7 @@
 }
 
 .meni {
-    margin-left: 10%;
+    margin-left: 1vw;
 }
 
 

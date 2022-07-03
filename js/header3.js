@@ -24,7 +24,7 @@ let header = '\
                 <li class="dropdown-submenu">\
                     <a  class="dropdown-item rec-macke" tabindex="-1" href="../macke.html">Mačke</a>\
                     <ul class="dropdown-menu">\
-                      <li class="dropdown-item"><a tabindex="-1" href="../macke/persijska.html" class="rec-perijska">Persijska</a></li>\
+                      <li class="dropdown-item"><a tabindex="-1" href="../macke/persijska.html" class="rec-persijska">Persijska</a></li>\
                       <li class="dropdown-item"><a href="../macke/bengalska.html" class="rec-bengalska">Bengalska</a></li>\
                       <li class="dropdown-item"><a href="../macke/sijamska.html" class="rec-sijamska">Sijamska</a></li>\
                     </ul>\

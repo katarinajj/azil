@@ -14,3 +14,9 @@
 .bredkrum {
     margin-top: 15px;
 }
+
+.oglasDugme, .oglasPregled {
+    background-color: #8ca982;
+    font-weight: bold;
+    color: white;
+}

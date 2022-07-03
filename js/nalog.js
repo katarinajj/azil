@@ -20,7 +20,7 @@ $(document).ready(function() {
             for(let i = 0; i < oglasi.length; i++) {
                 if(oglasi[i].korisnik == korisnik.korime) {
 
-                    let dugme = $('<button></button>').addClass('btn').addClass('oglasDugme').attr('id', oglasi[i].id).text("Obrisi").addClass('rec-detalji-oglasa');
+                    let dugme = $('<button></button>').addClass('btn').addClass('oglasDugme').attr('id', oglasi[i].id).text("Obriši").addClass('rec-detalji-oglasa');
                     let par = $('<p></p>').text(oglasi[i].tekst);
                     // let kor = $('<div></div>').addClass('infoKor').text("Kontakt: " + oglasi[i].telefon);
 
